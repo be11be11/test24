@@ -3,8 +3,8 @@
 .flexbox {
   display: flex;
   display: flexbox;
-  margin: 10px;
-  padding: 10px;
+  margin: 2px;
+  padding: 2px;
   border: 2px solid lime;
    background-color: rgba(200, 100, 200, 1);
   width: 100%;
@@ -13,23 +13,22 @@
 .boxA, .boxB, .boxE {
   display: flex;
   display: flexbox;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid red;
-  background-color: rgba(200, 100, 200, 1);
-  min-width: 50px;
-  min-height: 20px;
-  height: 100px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid red;
+  min-width: 10px;
+  min-height: 10px;
+  height: 200px;
   text-align: center;
 }
  .boxC, .boxD {
   display: flex;
   display: flexbox;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid aqua;
-  min-width: 50px;
-  min-height: 20px;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid aqua;
+  min-width: 10px;
+  min-height: 10px;
   height: 50px;
   text-align: center;
 }
