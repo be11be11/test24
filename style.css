@@ -23,6 +23,10 @@
   text-align: center;
 }
  .boxC, .boxD {
+  display: flex;
+  display: flexbox;
+  margin: 10px;
+  padding: 10px;
   border: 1px solid aqua;
   min-width: 50px;
   min-height: 20px;
