@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.flexbox {
+  display: flex;
+  display: -ms-flexbox;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  background-color: #ddd;
+  width: 250px;
+  height: 50px;
+}
+.boxA, .boxB, .boxC {
+  border: 1px solid #999;
+  min-width: 100px;
+  min-height: 20px;
+  height: 22px;
+  text-align: center;
+}
+.boxA { background-color: #fcc; }
+.boxB { background-color: #cfc; }
+.boxC { background-color: #ccf; }
