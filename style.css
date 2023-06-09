@@ -21,6 +21,7 @@
   height: 200px;
   flex-wrap:wrap
   text-align: center;
+  position: relative;
 }
  .boxC, .boxD {
   display: flex;
@@ -30,7 +31,8 @@
   border: 2px solid aqua;
   min-width: 10px;
   min-height: 10px;
-  width: 100%; 
+  position: absolute; 
+  width: 100%; /* 100%だけでは効かない？ */  
   height: 50px;
   text-align: center;
 }
