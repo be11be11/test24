@@ -23,7 +23,7 @@
   text-align: center;
   position: relative;
 }
- .boxC, .boxD {
+ .boxC {
   display: flex;
   display: flexbox;
   margin: 2px;
@@ -32,7 +32,19 @@
   min-width: 10px;
   min-height: 10px;
   position: absolute; 
-  width: 100%; /* 100%だけでは効かない？ */  
+  width: 80%; /* 100%だけでは効かない？ */  
+  height: 50px;
+  text-align: center;
+}
+ .boxD {
+  display: flex;
+  display: flexbox;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid aqua;
+  min-width: 10px;
+  min-height: 10px;
+  width: 50%; /* 100%だけでは効かない？ */  
   height: 50px;
   text-align: center;
 }
