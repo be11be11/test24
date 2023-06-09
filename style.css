@@ -31,13 +31,22 @@
   width: 95%;
   height: 300px;
 }
- .boxB>.boxC, .boxD {
+ .boxB>.boxC {
   margin: 2px;
   padding: 2px;
   border: 2px solid aqua;
   position: absolute; 
-  width: 80%; /* 100%だけでは効かない？ */  
+  width: 50%; /* 100%だけでは効かない？ */  
   height: 50px;
+  text-align: center;
+}
+ .boxB>.boxD {
+  margin-right: 10px;
+  padding: 2px;
+  border: 2px solid pink;
+  position: absolute; 
+  width: 80%; /* 100%だけでは効かない？ */  
+  height: 70px;
   text-align: center;
 }
 /*このdiv2つ目以降は効かない可能性大
